@@ -18,7 +18,7 @@ class EventController extends Controller
     }
     public function index(){
         
-        Event::fire(new sendmail(2));
+        Event::fire(new sendmail(1));
         return view('/home');
     }
 }
